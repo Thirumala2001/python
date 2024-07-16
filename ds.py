@@ -23,6 +23,11 @@ set.remove(23)
 print(set)
 
 dict = {"a":10,"b":20,"c":30}
+print(dict['b'])
+dict['a'] = 20
+dict ['d'] = 40  # add
+dict['e']=[12,23]
+del dict['d']
 print(dict)
 
 
